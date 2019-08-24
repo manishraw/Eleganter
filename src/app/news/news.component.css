@@ -1,0 +1,45 @@
+.page_heading {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+.col-sm-6.news_sec {
+    width: 46%;
+    float: left;
+    text-align: center;
+    border: 1px solid #eee;
+    margin: 2%;
+    padding: 20px;
+    min-height: auto;
+    margin-bottom: 10px;
+}
+.news_img_sec {
+    height: 280px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.news_img{
+    width: 100%;
+}
+h2{color:red;}
+h2.article_title {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    line-height: 23px;
+    margin-bottom: 15px;
+    height: 50px;
+    overflow: hidden;
+}
+.description {
+    text-align: left;
+    height: 49px;
+    overflow: hidden;
+    margin-bottom: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.publist_date {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}

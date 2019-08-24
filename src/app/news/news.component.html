@@ -1,0 +1,10 @@
+<div class="page_heading">Bollywood News</div>
+<div class="col-sm-6 news_sec" *ngFor='let newsArticle of newsData'>
+    <h2 class="article_title"><a href="{{ newsArticle.url}}" target="_blank">{{ newsArticle.title}}</a></h2>
+    <div class="news_img_sec"><a href="{{ newsArticle.url}}" target="_blank"><img [src]='newsArticle.urlToImage' width='500px' height='500px' class='news_img'></a></div>
+    <div class="description">{{ newsArticle.description}}</div>
+    <div class="publist_date">{{ newsArticle.publishedAt}}</div>
+    <!--<div class="author_ame">{{ newsArticle.author}}</div>-->
+    <hr/>
+</div>
+<br clear="all" />

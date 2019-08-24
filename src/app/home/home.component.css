@@ -1,0 +1,26 @@
+.main_banner_img {
+    position: relative;
+}
+.banner_quote {
+    position: absolute;
+    top: 195px;
+    left: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    color: #fff;
+    right: 0;
+    text-align: center;
+    text-shadow: 2px 3px 3px rgba(50, 0, 0, 1);
+}
+.banner_quote_content {
+    text-align: center;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}

@@ -1,0 +1,33 @@
+
+
+<!--<h1>{{welcomeMessage}}</h1>-->
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+        <div class="page_heading">About Us</div>
+        <h2>Welcome Mr. User ...........Thank You For Join Us</h2>
+        <p>Trust and respect are things that have to be earned. Awareness comes from being top of mind. These should all be the end goals of your marketing strategy, from SEO and content marketing to social media and email.</p>
+        <p>Your company’s About Us page is another opportunity to tell a story that will help you stick in your customer’s minds. (And as Blue Acorn’s study proves, it’s also an opportunity for a sale.)</p>
+        <p>Although everyone knows that users prefer images to text, it’s not as easy as just putting a bunch of pictures on your About Us page (although, as you will see, that definitely helps) and moving on to the next project. While creating an innovative page is hard work and can be time consuming, it can build the trust and respect of a potential customer, thus tipping the scale greatly tipped in your favor.</p>
+        <table width="100%" cellpadding="5" cellspacing="5" border="1">
+            <tr>
+                <th>Employee Name</th>
+                <th>Address</th>
+                <th>Sallary</th>
+                <th>Designation</th>
+            </tr>
+            <tr *ngFor="let eDetails of EmployeeDetsils">
+                <td>{{eDetails.Name}}</td>
+                <td>{{eDetails.Address}}</td>
+                <td>{{eDetails.Sallery}}</td>
+                <td>{{eDetails.Designation}}</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</div>
+
+
+

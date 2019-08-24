@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+        <div class="page_heading">Student Details</div>
+        <table width="100%" cellpadding="5" cellspacing="5" border="1">
+            <tr>
+                <th width="10%">ID</th>
+                <th width="15%">Name</th>
+                <th width="10%">Gender</th>
+                <th width="15%">Class</th>
+                <th width="10%">Strength</th>
+                <th width="10%">ScheduleTime</th>
+                <th width="30%">Info</th>
+            </tr>
+            <tr *ngFor='let studentsd of sDetails'>
+                <td> {{studentsd.ID}} </td>
+                <td> {{studentsd.Name}} </td>
+                <td> {{studentsd.Gender}} </td>
+                <td> {{studentsd.Class}} </td>
+                <td> {{studentsd.Strength}} </td>
+                <td> {{studentsd.ScheduleTime}} </td>
+                <td> {{studentsd.Info}} </td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</div>
+
